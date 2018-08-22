@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+ <meta charset='UTP-8'/>
+ 
+ </head>
+ <body>
+ 
+ <form action="novaEditora" method="POST">
+	<p> <label for="nomeEditora">Nome da Editora</label>:</br>
+	    <input type="text" name="nomeEditora" id="nomeEditora"></br></p>
+		
+		<p>	<label for="enderecoCompleto"> Endereço</label>:</br>
+			<input type="text" name="enderecoCompleto" id="enderecoCompleto"></br></p>
+			
+		<p>		<label for="CNPJ"> CNPJ </label>:</br>
+				<input type="text" name="CNPJ" id="CNPJ"></br></p>
+				
+		<p>			<label for="site" name="site"> Web Site</label>:</br>
+					<input type="text" name="site" id="site"></br></p>
+					
+		<p>				<label for="input_email">E-mail</label>:</br>
+						<input type="email" name="email" id="input_email"></br></p>
+						
+		<p>						<label for="telefone">Telefone</label>:</br>
+								<input type="text" name="telefone" id="telefone"></br></p>
+								
+		<p>							<label for="contato">Nome de contato</label>:</br>
+									<input type="text" name="contato" id="contato"></br></p>
+									
+									
+
+<h4>Gêneros:</h4>
+	<input name="generos" type="checkbox" value= "cop">Policial</br>
+		<input name="generos" type="checkbox" value="fiction">Ficção</br>
+			<input name="generos" type="checkbox" value="noFiction">Não Ficção</br>
+				<input name="generos" type="checkbox" value="religious">Religioso</br>
+					<input name="generos" type="checkbox" value="sport">Esporte</br>
+						<input name="generos" type="checkbox" value="professional">Profissional</br>
+							<input name="generos" type="checkbox" value="others">Outros</br>
+
+
+
+<button type="reset" value="Reset" type="button" onclick="alert('Cadastro realizado com sucesso!')">Enviar</button>	
+
+</form>
+</body>
+</html>
+	
